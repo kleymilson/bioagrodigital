@@ -1,0 +1,495 @@
+
+/* =====================================
+   BIOAGRODIGITAL — PÁGINA INICIAL
+   ===================================== */
+
+:root {
+  --verde-escuro: #075c3a;
+  --verde: #087b45;
+  --azul: #14689b;
+  --dourado: #dda83c;
+  --fundo: #f0f7f4;
+  --texto: #19352d;
+  --cinza: #61746c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--texto);
+  background: var(--fundo);
+  line-height: 1.6;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+  background: #ffffff;
+  padding: 18px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 12px rgba(0, 60, 30, 0.07);
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.marca-icone {
+  font-size: 34px;
+}
+
+.marca h1 {
+  margin: 0;
+  color: var(--verde-escuro);
+  font-size: 27px;
+  line-height: 1.2;
+}
+
+.marca p {
+  margin: 0;
+  color: var(--cinza);
+  font-size: 13px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  color: var(--texto);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.menu a:hover {
+  color: var(--verde);
+}
+
+.menu .menu-painel {
+  background: var(--verde);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.menu .menu-painel:hover {
+  background: var(--verde-escuro);
+  color: white;
+}
+
+/* APRESENTAÇÃO PRINCIPAL */
+
+.apresentacao {
+  margin: 28px auto;
+  width: 90%;
+  max-width: 1250px;
+  padding: 65px 55px;
+  border-radius: 20px;
+  background: linear-gradient(
+    120deg,
+    #064a32 0%,
+    #087b45 65%,
+    #14689b 100%
+  );
+  color: white;
+  box-shadow: 0 12px 28px rgba(0, 65, 40, 0.13);
+}
+
+.apresentacao-conteudo {
+  max-width: 780px;
+}
+
+.etiqueta {
+  color: #c9f1d5;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.apresentacao h2 {
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1.15;
+  margin: 18px 0;
+}
+
+.apresentacao p {
+  font-size: 17px;
+  color: #e1f5e9;
+  max-width: 680px;
+}
+
+.botoes {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 26px;
+}
+
+.botao-principal,
+.botao-secundario {
+  padding: 13px 22px;
+  border-radius: 9px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.botao-principal {
+  background: white;
+  color: var(--verde-escuro);
+}
+
+.botao-secundario {
+  border: 1px solid #b5e3ce;
+  color: white;
+}
+
+.botao-principal:hover {
+  background: #e0f4e7;
+}
+
+.botao-secundario:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* INDICADORES */
+
+.indicadores {
+  width: 90%;
+  max-width: 1250px;
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.indicador {
+  padding: 22px 25px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.indicador strong {
+  font-size: 30px;
+}
+
+.indicador span {
+  font-size: 14px;
+}
+
+.indicador.verde {
+  background: #dff4e7;
+  color: #075c3a;
+}
+
+.indicador.azul {
+  background: #e1f0fa;
+  color: #145a88;
+}
+
+.indicador.dourado {
+  background: #fff0d4;
+  color: #996015;
+}
+
+/* SEÇÕES */
+
+.secao {
+  width: 90%;
+  max-width: 1250px;
+  margin: 45px auto;
+}
+
+.secao-titulo span {
+  color: var(--verde);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.secao-titulo h2 {
+  color: var(--verde-escuro);
+  font-size: clamp(25px, 3vw, 34px);
+  margin: 8px 0;
+}
+
+.secao-titulo p {
+  color: var(--cinza);
+  margin-bottom: 25px;
+}
+
+/* MAPA */
+
+.mapa-container {
+  background: white;
+  padding: 12px;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px rgba(0, 60, 30, 0.08);
+}
+
+#mapa-inicio {
+  height: 580px;
+  width: 100%;
+  border-radius: 12px;
+  background: #e7f3ec;
+}
+
+.fonte-mapa {
+  font-size: 12px;
+  color: var(--cinza);
+}
+
+.link-painel {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 20px;
+  background: var(--azul);
+  color: white;
+  border-radius: 9px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link-painel:hover {
+  background: #0a4260;
+}
+
+/* ÁREAS DE ATUAÇÃO */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-top: 25px;
+}
+
+.card {
+  padding: 25px;
+  border-radius: 16px;
+  min-height: 220px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card-icone {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 19px;
+  margin: 0 0 10px;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.card-verde {
+  background: #dff4e7;
+  color: #075c3a;
+}
+
+.card-dourado {
+  background: #fff0d4;
+  color: #80510d;
+}
+
+.card-azul {
+  background: #e1f0fa;
+  color: #145a88;
+}
+
+.card-roxo {
+  background: #f0e7fa;
+  color: #70469b;
+}
+
+/* SOBRE O PROJETO */
+
+.sobre {
+  background: white;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px rgba(0, 60, 30, 0.06);
+}
+
+.sobre p {
+  max-width: 950px;
+  color: #455c52;
+}
+
+/* RODAPÉ */
+
+.rodape {
+  background: #0a4260;
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+  margin-top: 55px;
+}
+
+.rodape strong {
+  font-size: 22px;
+}
+
+.rodape p {
+  margin: 6px 0;
+}
+
+.rodape small {
+  color: #d8eaf4;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 950px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cabecalho {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .apresentacao {
+    padding: 35px 25px;
+  }
+
+  .indicadores,
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .menu {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  #mapa-inicio {
+    height: 350px;
+  }
+
+  .sobre {
+    padding: 25px;
+  }
+}
+
+
+
+/* INSTITUIÇÕES DO PROJETO */
+
+.instituicoes {
+  width: 90%;
+  max-width: 1250px;
+  margin: 28px auto;
+  padding: 25px 35px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0, 60, 30, 0.06);
+}
+
+.instituicoes h2 {
+  margin: 0 0 20px;
+  text-align: center;
+  color: #075c3a;
+  font-size: 19px;
+}
+
+.instituicoes-logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 30px;
+}
+
+.instituicao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.instituicao img {
+  width: 100%;
+  max-width: 210px;
+  height: 95px;
+  object-fit: contain;
+}
+
+.instituicao span {
+  font-size: 12px;
+  color: #61746c;
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .instituicoes-logos {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .instituicoes {
+    padding: 25px 20px;
+  }
+}
+
+
+
+
+/* NOME DO MUNICÍPIO NO MAPA */
+
+.rotulo-municipio {
+  background: transparent;
+  border: none;
+}
+
+.rotulo-municipio span {
+  display: block;
+  width: 210px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+
+  color: #075c3a;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  text-shadow: 0 0 4px white;
+}
+
+.rotulo-municipio small {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+

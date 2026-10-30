@@ -1,0 +1,416 @@
+:root{font-family:Segoe UI,Arial,sans-serif;color:#193e30;background:#f3f5f3}*{box-sizing:border-box}body{margin:0}header{background:#fff;border-bottom:1px solid #dce6de;padding:22px max(24px,calc((100vw - 1400px)/2));display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{font-weight:800;font-size:clamp(19px,2vw,28px);letter-spacing:.2px}header small{color:#698075}main{max-width:1400px;margin:auto;padding:24px}.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-bottom:18px}.metric,.panel{background:#fff;border:1px solid #e1e8e2;border-radius:12px;box-shadow:0 3px 12px #163d2710}.metric{padding:22px;display:flex;flex-direction:column;gap:8px}.metric span{color:#61776b;font-size:14px}.metric strong{font-size:38px;color:#183d2b}.metric small{color:#73877a}.content{display:grid;grid-template-columns:minmax(0,2.4fr) minmax(270px,1fr);gap:18px}.panel{padding:16px}.panel h2{font-size:17px;margin:0 0 15px}.panel-head{display:flex;align-items:center;justify-content:space-between;gap:10px}.panel-head span{font-size:12px;color:#6a7f70}#map{height:530px;border-radius:8px;background:#e9efea}.legend{font-size:12px;color:#65776b;margin-top:12px}.filters label{display:block;margin:18px 0 7px;font-size:13px;font-weight:600}.filters select{width:100%;padding:11px;border:1px solid #cbd9cd;border-radius:7px;background:#fff}.filters p{line-height:1.5;color:#496354;font-size:14px}.filters .note{font-size:12px;color:#79877d;border-top:1px solid #e8ede9;padding-top:14px}footer{text-align:center;color:#748579;font-size:12px;padding:18px}@media(max-width:760px){header{padding:18px;display:block}header small{display:block;margin-top:8px}main{padding:12px}.stats,.content{grid-template-columns:1fr}#map{height:430px}}
+
+.legenda-categorias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  padding: 14px 4px;
+  align-items: center;
+}
+
+.legenda-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 8px;
+  border: 1px solid #dce5df;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  font-size: 12px;
+  color: #244536;
+}
+
+.legenda-item:hover {
+  background: #edf5f0;
+}
+
+.legenda-cor {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+
+.graficos {
+  margin-top: 24px;
+}
+
+.graficos .panel {
+  padding: 24px;
+}
+
+.grafico-container {
+  position: relative;
+  width: 100%;
+  height: 420px;
+}
+
+@media (max-width: 768px) {
+  .grafico-container {
+    height: 520px;
+  }
+}
+
+
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+
+@media (max-width: 1000px) {
+    .stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .stats {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.tabela-section {
+    margin-top: 24px;
+}
+
+.tabela-section .panel {
+    padding: 24px;
+}
+
+.tabela-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.tabela-localidades {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.tabela-localidades th,
+.tabela-localidades td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #e2e8e4;
+    text-align: left;
+}
+
+.tabela-localidades th {
+    background: #edf5f0;
+    color: #174e38;
+}
+
+.tabela-localidades tbody tr:hover {
+    background: #f3f8f5;
+}
+
+.btn-localizar {
+    background: #176b4d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+
+.btn-localizar:hover {
+    background: #104c37;
+}
+
+
+.ficha-localidade {
+    margin-top: 24px;
+}
+
+.ficha-localidade .panel {
+    padding: 24px;
+}
+
+#ficha-conteudo {
+    line-height: 1.8;
+    color: #244536;
+}
+
+#ficha-conteudo h3 {
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #103e2d;
+}
+
+#ficha-conteudo h4 {
+    margin-top: 20px;
+    color: #103e2d;
+}
+
+#ficha-conteudo hr {
+    border: none;
+    border-top: 1px solid #e0e8e2;
+    margin: 20px 0;
+}
+
+
+
+
+.pesquisa-localidades {
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+#pesquisaLocalidade {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #cbd9d0;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+#pesquisaLocalidade:focus {
+    border-color: #176b4d;
+    box-shadow: 0 0 0 3px rgba(23, 107, 77, 0.12);
+}
+
+
+
+.acoes-tabela {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+
+#btnExportarCSV {
+    background-color: #176b4d;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 11px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#btnExportarCSV:hover {
+    background-color: #104c37;
+}
+
+#btnExportarCSV:active {
+    transform: scale(0.98);
+}
+
+
+
+/* Ajustes para celulares e tablets */
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        padding: 12px;
+    }
+
+    .tabela-section .panel {
+        padding: 15px;
+    }
+
+    .tabela-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .tabela-localidades {
+        min-width: 600px;
+    }
+
+    #pesquisaLocalidade {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .acoes-tabela {
+        justify-content: flex-start;
+    }
+
+    #map {
+        width: 100%;
+        height: 380px;
+    }
+}
+
+
+/* ==========================================
+   BIOAGRODIGITAL — NOVA IDENTIDADE DO PAINEL
+   ========================================== */
+
+body {
+  background: #f0f7f4;
+  color: #19352d;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Cabeçalho institucional */
+
+header {
+  background: linear-gradient(
+    115deg,
+    #064a32 0%,
+    #087b45 65%,
+    #14689b 100%
+  );
+  color: white;
+  padding: 24px 30px;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 5px 20px rgba(0, 60, 30, 0.12);
+}
+
+header .brand {
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+header .brand span {
+  color: #d5f2e2;
+}
+
+/* Cartões dos indicadores */
+
+.stats .metric {
+  background: #ffffff;
+  border: 1px solid #dcece3;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 5px 16px rgba(0, 60, 30, 0.06);
+}
+
+.stats .metric:nth-child(4n + 1) {
+  background: #dff4e7;
+}
+
+.stats .metric:nth-child(4n + 2) {
+  background: #e1f0fa;
+}
+
+.stats .metric:nth-child(4n + 3) {
+  background: #fff0d4;
+}
+
+.stats .metric:nth-child(4n + 4) {
+  background: #f0e7fa;
+}
+
+.stats .metric strong {
+  color: #075c3a;
+  font-weight: 800;
+}
+
+/* Campos e filtros */
+
+input,
+select {
+  border-radius: 9px;
+  border: 1px solid #c5ddd0;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #087b45;
+  outline-offset: 1px;
+}
+
+/* Botões */
+
+button {
+  border-radius: 9px;
+  transition: background 0.2s ease;
+}
+
+/* Tabelas */
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background: #075c3a;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background: #f1f8f4;
+}
+
+tbody tr:hover {
+  background: #e0f4e7;
+}
+
+
+/* AJUSTES FINAIS DO CABEÇALHO */
+
+header small,
+header p,
+header .subtitle {
+  color: #e1f5e9;
+}
+
+
+
+/* BOTÃO DE RETORNO À PÁGINA INICIAL */
+
+.voltar-inicio {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 9px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 8px;
+}
+
+.voltar-inicio:hover {
+  background: white;
+  color: #075c3a;
+}
+
+
+
+/* ORGANIZAÇÃO DO CABEÇALHO DO PAINEL */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.header-acoes {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.header-acoes small {
+  color: #e1f5e9;
+  font-size: 12px;
+}
+
+@media (max-width: 750px) {
+  .header-acoes {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}

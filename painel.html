@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BioAgroDigital | Serra do Ramalho – BA</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    
+<header>
+  <div class="brand">
+    BIOAGRODIGITAL
+    <span>| SERRA DO RAMALHO — BA</span>
+  </div>
+
+  <div class="header-acoes">
+    <small>Plataforma de indicadores territoriais</small>
+
+    <a href="index.html" class="voltar-inicio">
+      ← Página inicial
+    </a>
+  </div>
+</header>
+
+  
+  <main>
+    <section class="stats">
+      <article class="metric"><span>Localidades cadastradas</span><strong id="total">—</strong><small>Base geográfica carregada</small></article>
+      <article class="metric"><span>Produção diária de leite</span><strong id="leite">—</strong><small>Litros/dia · aguardando dados</small></article>
+   
+      <article class="metric">
+          <span>Categorias IBGE</span>
+          <strong id="totalCategorias">—</strong>
+          <small>Categorias representadas</small>
+      </article>
+
+      <article class="metric">
+          <span>Participação das localidades</span>
+          <strong id="percentualLocalidades">—</strong>
+          <small>Percentual do total cadastrado</small>
+      </article>
+
+   
+    </section>
+    <section class="content">
+      <article class="panel map-panel"><div class="panel-head"><h2>Distribuição geográfica das localidades</h2><span id="status">Carregando...</span></div><div id="map"></div>
+        <div id="legenda-categorias" class="legenda-categorias"></div>
+        <div class="legend">● Pontos das localidades &nbsp;&nbsp; ▰ Contorno municipal (IBGE)</div></article>
+      <aside class="panel filters"><h2>Filtros</h2><label for="categoria">Categoria IBGE</label><select id="categoria"><option value="">Todas as categorias</option></select><label for="localidade">Localidade</label><select id="localidade"><option value="">Todas as localidades</option></select><p id="info">Selecione um ponto no mapa para consultar os detalhes.</p><p class="note">Os indicadores serão calculados a partir dos dados importados. Nenhum valor de demonstração será apresentado como dado real.</p></aside>
+    </section>
+
+    
+  <section class="ficha-localidade">
+      <article class="panel">
+          <h2>Ficha da localidade</h2>
+
+          <div id="ficha-conteudo">
+              <p>Selecione uma localidade no mapa ou na tabela para visualizar suas informações.</p>
+          </div>
+      </article>
+  </section>
+
+
+
+  <section class="graficos">
+    <article class="panel">
+      <h2>Distribuição das localidades por categoria IBGE</h2>
+      <div class="grafico-container">
+        <canvas id="graficoCategorias"></canvas>
+      </div>
+    </article>
+  </section>
+    
+  <section class="tabela-section">
+      <article class="panel">
+          <h2>Relação das localidades cadastradas</h2>
+          <p>Selecione uma localidade para encontrá-la no mapa.</p>
+
+          
+          <div class="pesquisa-localidades">
+              <input
+                  type="search"
+                  id="pesquisaLocalidade"
+                  placeholder="Pesquisar localidade pelo nome..."
+                  autocomplete="off"
+                  aria-label="Pesquisar localidade"
+              >
+          </div>
+          
+          <div class="acoes-tabela">
+              <button id="btnExportarCSV" type="button">
+                  Exportar CSV
+              </button>
+          </div>
+
+          <div class="tabela-container">
+              <table class="tabela-localidades">
+                  <thead>
+                      <tr>
+                          <th>Nº</th>
+                          <th>Localidade</th>
+                          <th>Categoria IBGE</th>
+                          <th>Localizar</th>
+                      </tr>
+                  </thead>
+                  <tbody id="corpoTabela"></tbody>
+              </table>
+          </div>
+      </article>
+  </section>
+
+  </main>
+  <footer>BioAgroDigital · Projeto em desenvolvimento · Dados geográficos: IBGE</footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

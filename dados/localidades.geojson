@@ -1,0 +1,817 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila 01",
+        "Categorias_IBGE": "Núcleo Urbano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5167007,
+          -13.2983999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila 02",
+        "Categorias_IBGE": "Núcleo Urbano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5839005,
+          -13.2845001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila 03",
+        "Categorias_IBGE": "Núcleo Urbano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5331001,
+          -13.3733997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila 07",
+        "Categorias_IBGE": "Núcleo Urbano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5587997,
+          -13.4849005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila 10",
+        "Categorias_IBGE": "Núcleo Urbano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.642601,
+          -13.5321999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila 2",
+        "Categorias_IBGE": "Outras Localidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5803986,
+          -13.2657003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 01",
+        "Categorias_IBGE": "Agrovila do PA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5153999,
+          -13.2987003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 02",
+        "Categorias_IBGE": "Agrovila do PA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5845985,
+          -13.2826996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 03",
+        "Categorias_IBGE": "Agrovila do PA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5326996,
+          -13.3726997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 04",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5982018,
+          -13.3451996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 05",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5489998,
+          -13.4406004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 06",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6138,
+          -13.4090996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 07",
+        "Categorias_IBGE": "Agrovila do PA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5600014,
+          -13.4854002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 08",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6304016,
+          -13.4785004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 10",
+        "Categorias_IBGE": "Agrovila do PA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.7366982,
+          -13.7019997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 11",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6502991,
+          -13.5866003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 12",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.7114983,
+          -13.5725002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 13",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.7249985,
+          -13.6471004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 14",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.7364006,
+          -13.6977997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 17",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.7201996,
+          -13.4602003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 18",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6908989,
+          -13.3817997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 19",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.7580986,
+          -13.3862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 20",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.7408981,
+          -13.3219995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 21",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6553993,
+          -13.7250996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA 22",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6515999,
+          -13.6646004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA Nova Posse",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.8670006,
+          -13.6813002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA Palma-Passos",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4609985,
+          -13.5415001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Agrovila do PA Vila Formosa",
+        "Categorias_IBGE": "Agrovila do PA | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5987015,
+          -13.2688999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Água Fina",
+        "Categorias_IBGE": "Outras Localidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.8146019,
+          -13.6557999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Aldeia Indígena Indualhá",
+        "Categorias_IBGE": "Localidade Indígena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5225983,
+          -13.4299002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Aldeia Indígena Vargem Alegre",
+        "Categorias_IBGE": "Localidade Indígena | Lugarejo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.7685013,
+          -13.3992004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Barra da Empueira",
+        "Categorias_IBGE": "Outras Localidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4529991,
+          -13.2863998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Batata",
+        "Categorias_IBGE": "Outras Localidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.780201,
+          -13.2257004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Boa Vista",
+        "Categorias_IBGE": "Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4483986,
+          -13.4975004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Braúna",
+        "Categorias_IBGE": "Outras Localidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4761009,
+          -13.3128996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Comunidade Quilombola Água Fria",
+        "Categorias_IBGE": "Localidade Quilombola | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5685997,
+          -13.6791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Comunidade Quilombola Barra Empueira",
+        "Categorias_IBGE": "Localidade Quilombola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4510002,
+          -13.2823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Comunidade Quilombola Barreiro Grande",
+        "Categorias_IBGE": "Localidade Quilombola | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5988007,
+          -13.7644997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Comunidade Quilombola Barrinha do São Francisco",
+        "Categorias_IBGE": "Localidade Quilombola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4406013,
+          -13.2639999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Comunidade Quilombola Boa Vista",
+        "Categorias_IBGE": "Localidade Quilombola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5848007,
+          -13.2886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Comunidade Quilombola Campinhos",
+        "Categorias_IBGE": "Localidade Quilombola | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5472984,
+          -13.6215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Comunidade Quilombola Estreito",
+        "Categorias_IBGE": "Localidade Quilombola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6590004,
+          -13.7245998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Comunidade Quilombola Fechadinha",
+        "Categorias_IBGE": "Localidade Quilombola | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.466301,
+          -13.2720003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Comunidade Quilombola Palmas",
+        "Categorias_IBGE": "Localidade Quilombola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5875015,
+          -13.5474997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Comunidade Quilombola Pambu / Araçás",
+        "Categorias_IBGE": "Localidade Quilombola | Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4784012,
+          -13.3578997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Comunidade Quilombola Pituba",
+        "Categorias_IBGE": "Localidade Quilombola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5595016,
+          -13.6430998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Comunidade Quilombola Rio das Rãs",
+        "Categorias_IBGE": "Localidade Quilombola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5839005,
+          -13.2865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Comunidade Quilombola Veredas",
+        "Categorias_IBGE": "Localidade Quilombola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4832993,
+          -13.3849001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Fazenda Busato II",
+        "Categorias_IBGE": "Outras Localidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.7125015,
+          -13.2884998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Fazenda Jenipapo",
+        "Categorias_IBGE": "Outras Localidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.8109016,
+          -13.2283001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Fechadinha",
+        "Categorias_IBGE": "Outras Localidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4673996,
+          -13.2838001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Mandiaçu",
+        "Categorias_IBGE": "Outras Localidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.7416992,
+          -13.5334997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Mariape",
+        "Categorias_IBGE": "Outras Localidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.539299,
+          -13.599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Mata Verde",
+        "Categorias_IBGE": "Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.7755013,
+          -13.6274996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Serra do Ramalho",
+        "Categorias_IBGE": "Cidade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5754013,
+          -13.5438004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Taquarinópolis",
+        "Categorias_IBGE": "Povoado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.7971001,
+          -13.5495005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Vila Boa Esperança",
+        "Categorias_IBGE": "Outras Localidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4496994,
+          -13.5080996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NM_LOCALIDADE": "Vila do Posto Formoso",
+        "Categorias_IBGE": "Outras Localidades"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6506004,
+          -13.2748003
+        ]
+      }
+    }
+  ]
+}

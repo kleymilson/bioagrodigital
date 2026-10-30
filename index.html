@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BioAgroDigital | Serra do Ramalho - BA</title>
+
+  <link rel="stylesheet" href="inicio.css">
+  <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+
+<body>
+
+  <!-- CABEÇALHO -->
+  <header class="cabecalho">
+    <div class="marca">
+      <span class="marca-icone">🌿</span>
+      <div>
+        <h1>BioAgroDigital</h1>
+        <p>Serra do Ramalho — Bahia</p>
+      </div>
+    </div>
+
+    <nav class="menu">
+      <a href="#inicio">Início</a>
+      <a href="#projeto">O Projeto</a>
+      <a href="#territorio">Território</a>
+      <a href="#areas">Áreas de atuação</a>
+      <a href="painel.html" class="menu-painel">Painel Interativo</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- APRESENTAÇÃO -->
+    <section id="inicio" class="apresentacao">
+      <div class="apresentacao-conteudo">
+        <span class="etiqueta">
+          PESQUISA • TECNOLOGIA • SUSTENTABILIDADE
+        </span>
+
+        <h2>Tecnologia, território e sustentabilidade</h2>
+
+        <p>
+          Integração de dados territoriais e agropecuários
+          para apoiar a pesquisa, a inovação e o
+          desenvolvimento sustentável de Serra do Ramalho.
+        </p>
+
+        <div class="botoes">
+          <a href="painel.html" class="botao-principal">
+            Explorar Painel Interativo
+          </a>
+
+          <a href="#projeto" class="botao-secundario">
+            Conhecer o Projeto
+          </a>
+        </div>
+      </div>
+    </section>
+
+    
+<!-- INSTITUIÇÕES -->
+<section class="instituicoes">
+  <h2>Instituições do Projeto</h2>
+
+  <div class="instituicoes-logos">
+
+    <div class="instituicao">
+      <img src="imagens/logo_UFOB.png"
+           alt="Universidade Federal do Oeste da Bahia">
+      <span>Universidade</span>
+    </div>
+
+    <div class="instituicao">
+      <img src="imagens/Logo_FAPESB_colorida.png"
+           alt="Fundação de Amparo à Pesquisa do Estado da Bahia">
+      <span>Fomento à pesquisa</span>
+    </div>
+
+    <div class="instituicao">
+      <img src="imagens/logo_Prefeitura_Serra_do_Ramalho.jpg"
+           alt="Prefeitura Municipal de Serra do Ramalho">
+      <span>Parceria institucional</span>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- INDICADORES -->
+    <section class="indicadores">
+      <article class="indicador verde">
+        <strong>58</strong>
+        <span>Localidades mapeadas</span>
+      </article>
+
+      <article class="indicador azul">
+        <strong>IBGE</strong>
+        <span>Base territorial</span>
+      </article>
+
+      <article class="indicador dourado">
+        <strong>BA</strong>
+        <span>Serra do Ramalho</span>
+      </article>
+    </section>
+
+    <!-- TERRITÓRIO -->
+    <section id="territorio" class="secao territorio">
+      <div class="secao-titulo">
+        <span>CONHEÇA O TERRITÓRIO</span>
+        <h2>Serra do Ramalho no mapa</h2>
+        <p>
+          Visualização do limite municipal a partir
+          de dados geográficos do IBGE.
+        </p>
+      </div>
+
+      <div class="mapa-container">
+        <div id="mapa-inicio"></div>
+      </div>
+
+      <p class="fonte-mapa">
+        Fonte: IBGE — Malha territorial municipal.
+      </p>
+
+      <a href="painel.html" class="link-painel">
+        Acessar mapa interativo completo
+      </a>
+    </section>
+
+    <!-- ÁREAS DE ATUAÇÃO -->
+    <section id="areas" class="secao">
+      <div class="secao-titulo">
+        <span>ÁREAS DE ATUAÇÃO</span>
+        <h2>Conhecimento aplicado ao território</h2>
+      </div>
+
+      <div class="cards">
+
+        <article class="card card-verde">
+          <div class="card-icone">🗺️</div>
+          <h3>Território e Localidades</h3>
+          <p>
+            Cartografia, georreferenciamento e
+            análise espacial do município.
+          </p>
+        </article>
+
+        <article class="card card-dourado">
+          <div class="card-icone">🚜</div>
+          <h3>Produção Agropecuária</h3>
+          <p>
+            Indicadores da agricultura, pecuária
+            e atividades produtivas rurais.
+          </p>
+        </article>
+
+        <article class="card card-azul">
+          <div class="card-icone">♻️</div>
+          <h3>Biomassa e Resíduos</h3>
+          <p>
+            Levantamento de resíduos agropecuários
+            e oportunidades de aproveitamento.
+          </p>
+        </article>
+
+        <article class="card card-roxo">
+          <div class="card-icone">⚡</div>
+          <h3>Bioenergia</h3>
+          <p>
+            Estudos sobre o potencial energético
+            da biomassa e soluções sustentáveis.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SOBRE O PROJETO -->
+    <section id="projeto" class="secao sobre">
+      <div class="secao-titulo">
+        <span>SOBRE O PROJETO</span>
+        <h2>O que é o BioAgroDigital?</h2>
+      </div>
+
+      <p>
+        O BioAgroDigital é uma iniciativa voltada à
+        integração de informações territoriais,
+        agropecuárias e energéticas de Serra do Ramalho,
+        buscando apoiar a produção de conhecimento,
+        o planejamento e a tomada de decisões.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="rodape">
+    <strong>BioAgroDigital</strong>
+    <p>
+      Serra do Ramalho — Bahia
+    </p>
+    <small>
+      Inteligência territorial, agropecuária e bioenergia.
+    </small>
+  </footer>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+  </script>
+  <script src="inicio.js"></script>
+
+</body>
+</html>
