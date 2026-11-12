@@ -493,3 +493,142 @@ body {
   letter-spacing: 1px;
 }
 
+/* INSTITUIÇÕES DO PROJETO — 4 LOGOS NA MESMA LINHA */
+
+.instituicoes-logos {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.instituicao {
+    min-width: 0;
+    text-align: center;
+}
+
+.instituicao img {
+    width: 100%;
+    max-width: 220px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 12px;
+}
+
+.instituicao span {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #075c3a;
+}
+
+/* Adaptar a telas pequenas */
+@media (max-width: 650px) {
+    .instituicoes-logos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+/* Aumentar somente o logotipo SEI Bahia */
+.instituicao:last-child img {
+    max-width: 340px;
+    height: 150px;
+    width: 120%;
+    object-fit: contain;
+}
+
+/* Aproximar o texto do logotipo SEI Bahia */
+.instituicao:last-child span {
+    display: block;
+    margin-top: -20px;
+}
+
+/* Deslocar o último logotipo para a esquerda */
+.instituicao:last-child img {
+    transform: translateX(-25px);
+}
+
+/* Deslocar todos os logotipos para a esquerda */
+.instituicoes-logos {
+    transform: translateX(-30px);
+}
+
+
+/* Distribuir as cinco áreas na mesma linha */
+#areas .cards {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 20px;
+    align-items: stretch;
+}
+
+/* Evitar que os cartões ultrapassem suas colunas */
+#areas .card {
+    min-width: 0;
+}
+
+/* Ajustar apenas o logotipo do SEI! Bahia */
+#areas .icone-sei {
+    width: 55px;
+    height: 50px;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 0 15px;
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 1000px) {
+    #areas .cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    #areas .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Botão de destaque do SEI! Bahia */
+#areas .link-sei {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+
+    background: #0868a8;
+    color: white;
+    text-decoration: none;
+
+    padding: 12px 14px;
+    border-radius: 12px;
+    margin-top: 18px;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.35;
+    text-align: center;
+
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+#areas .link-sei span {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#areas .link-sei:hover {
+    background: #064d80;
+    transform: translateY(-3px);
+}
+
+#areas .link-sei:focus-visible {
+    outline: 3px solid #075c3a;
+    outline-offset: 3px;
+}
